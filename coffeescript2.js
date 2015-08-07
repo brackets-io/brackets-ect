@@ -29,7 +29,7 @@ define(function (require, exports, module) {
         var commonKeywords = ["break", "by", "continue", "debugger", "delete",
                               "do", "in", "of", "new", "return", "then",
                               "this", "throw", "when", "until", "extends","end",
-                              "@", "extend", "include", "block"]; // ect.js keywords (this line)
+                              "@", "extend", "include", "block", "content"]; // ect.js keywords (this line)
 
         var keywords = wordRegexp(indentKeywords.concat(commonKeywords));
 
