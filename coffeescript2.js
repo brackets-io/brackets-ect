@@ -25,10 +25,11 @@ define(function (require, exports, module) {
                                   "is", "isnt", "in",
                                   "instanceof", "typeof"]);
         var indentKeywords = ["for", "while", "loop", "if", "unless", "else",
-                        "switch", "try", "catch", "finally", "class"];
+                              "switch", "try", "catch", "finally", "class"];
         var commonKeywords = ["break", "by", "continue", "debugger", "delete",
-                        "do", "in", "of", "new", "return", "then",
-                        "this", "@", "throw", "when", "until", "extends","end"];
+                              "do", "in", "of", "new", "return", "then",
+                              "this", "throw", "when", "until", "extends","end",
+                              "@", "extend", "include", "block"]; // ect.js keywords (this line)
 
         var keywords = wordRegexp(indentKeywords.concat(commonKeywords));
 

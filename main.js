@@ -2,9 +2,9 @@
 /*global define, brackets */
 
 /*
- * Brackets ECO template syntax highlighter.
- * © 2015, Steve McArthur, MIT License
- * https://github.com/SteveMcArthur/brackets-eco
+ * Brackets ECT template syntax highlighter.
+ * © 2015, Viktor Yakubiv, Steve McArthur MIT License
+ * https://github.com/viktor-yakubiv/brackets-ect
  */
 define(function (require, exports, module) {
     "use strict";
@@ -12,13 +12,13 @@ define(function (require, exports, module) {
     require('./coffeescript2');
 
     var codemirror = brackets.getModule("thirdparty/CodeMirror2/lib/codemirror");
-    codemirror.defineMIME("application/x-eco", {name: "htmlembedded", scriptingModeSpec:"coffeescript2"});
+    codemirror.defineMIME("application/x-ect", {name: "htmlembedded", scriptingModeSpec:"coffeescript2"});
     var LanguageManager = brackets.getModule("language/LanguageManager");
 
-    LanguageManager.defineLanguage("eco", {
-        name: "ECO",
-        mode: ["htmlembedded", "application/x-eco"],
-        fileExtensions: ["eco","html.eco"]
+    LanguageManager.defineLanguage("ect", {
+        name: "ECT",
+        mode: ["htmlembedded", "application/x-ect"],
+        fileExtensions: ["eco","html.eco", "ect","html.ect"]
     });
 
 });
