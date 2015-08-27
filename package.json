@@ -1,6 +1,6 @@
 {
     "name": "brackets-ect",
-    "title": "ECT Syntax Higlight",
+    "title": "ECT Syntax Highlight",
     "description": "Add syntax highlighting support for the ECT Template Engine (http://ectjs.com/), backward compatible with ECO",
     "homepage": "https://github.com/viktor-yakubiv/brackets-ect",
     "author": "Viktor Yakubiv (http://yakubiv.com)",
